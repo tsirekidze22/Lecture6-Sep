@@ -1,0 +1,130 @@
+.wrapper {
+  width: 1200px;
+  height: 400px;
+  border: 1px solid green;
+  border-radius: 8px;
+  margin: 100px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* flex-direction: row; justify-content - ჰორიზონტალური ღერძი, align-items: ვერტიკალური ღერძი */
+  /* flex-direction: column; justify-content - ვერტიკალური ღერძი, align-items: ჰორიზონტალური ღერძი */
+  /* justify-content: space-between;
+  align-items: flex-start; 
+  column-gap: 50px; */
+}
+
+/* .box {
+  width: 150px;
+  height: 150px;
+} */
+
+.box-1 {
+  background-color: red;
+}
+
+.box-2 {
+  background-color: green;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+/* .card {
+  width: 378px;
+  height: 412px;
+  background-color: #fff9f0;
+  border: 1px solid #888;
+  border-radius: 6px;
+  margin: 50px auto;
+  padding: 54px 33px 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} */
+
+/* .card img {
+  width: 163px;
+  height: 122px;
+} */
+
+.container {
+  width: 1312px;
+  margin: auto;
+}
+
+.header {
+  padding-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 60px;
+  /* margin-left: 655px; */
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 56px;
+}
+
+.user-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #69306d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 93px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-gallery {
+  width: 646px;
+  height: 535px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.product-text {
+  width: 593px;
+  min-height: 535px;
+  border: 1px solid grey;
+}
+
+.image-list {
+  width: 91px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.image-list li {
+  width: 91px;
+  height: 91px;
+}
+
+.main-img {
+  width: 535px;
+  height: 535px;
+  background-image: url("../images/product-img.jpg");
+  border-radius: 10px;
+}
